@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-24T21:10:36.230Z",
+        "before": [
+          {
+            "result": {
+              "duration": 502720,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Wikipedia search test",
+        "description": "",
+        "id": "wikipedia-search-feature;wikipedia-search-test",
+        "after": [
+          {
+            "result": {
+              "duration": 124448,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3933627887,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the wikipedia homepage",
+            "match": {
+              "location": "Wiki_steps.user_is_on_the_wikipedia_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1068242524,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters steve jobs to search bar and clicks enter",
+            "match": {
+              "location": "Wiki_steps.user_enters_steve_jobs_to_search_bar_and_clicks_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74581029,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should see the first header is displaying steve jobs",
+            "match": {
+              "location": "Wiki_steps.user_should_see_the_first_header_is_displaying_steve_jobs()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wiki"
+          }
+        ]
+      }
+    ],
+    "name": "Wikipedia search feature",
+    "description": "",
+    "id": "wikipedia-search-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/wiki.feature",
+    "tags": []
+  }
+]
